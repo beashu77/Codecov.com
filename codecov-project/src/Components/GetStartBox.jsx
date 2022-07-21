@@ -134,7 +134,7 @@ const GetStartBox = () => {
       </div>
 
    {/* How Codecov helps...********************************* */}
-      <div className={style.HowContainer}>
+      <div  className={style.HowContainer}>
         <div className={style.HowHeading}>
             <h2>How Codecov helps...</h2>
            <div > 
