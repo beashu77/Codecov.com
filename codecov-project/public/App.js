@@ -12,9 +12,9 @@ function App() {
   return (
     <div id="mega-header" style={{height:'auto'}} >
      <Navbar />
-     <GetStartBox />
-     <CodeCovHomeMid />
-     {/* <OurCustomer /> */}
+     {/* <GetStartBox />
+     <CodeCovHomeMid /> */}
+     <OurCustomer />
      <Footer />
      
     </div>
@@ -22,4 +22,3 @@ function App() {
 }
 
 export default App;
-
