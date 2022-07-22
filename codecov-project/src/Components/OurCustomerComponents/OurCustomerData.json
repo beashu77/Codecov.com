@@ -1,16 +1,371 @@
 {
-    "OurCustomerData":[
-        {
-            "name":"Slack",
-            "Category":"",
-            "imgUrl":"",
-            "href":""
-        }
-    ]
+  "OurCustomerData": [
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2022/07/2560px-Slack_Technologies_Logo.svg.png",
+      "href": "",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2022/05/Logo-Robinhood.png",
+      "href": "https://robinhood.com/us/en/",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/07/philips.svg",
+      "href": "https://www.usa.philips.com/",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/07/alivecor.svg",
+      "href": "https://www.kardia.com/",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/truepill.svg",
+      "href": "https://truepill.com/",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/spothero-1.svg",
+      "href": "https://spothero.com/",
+      "Category": "Finance"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/gatspy.svg",
+      "href": "https://www.gatsbyjs.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/substack-1.svg",
+      "href": "https://substack.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/EquityZen-Logo-2.svg",
+      "href": "https://equityzen.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/mux.svg",
+      "href": "https://mux.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/butterfly_network-1.svg",
+      "href": "https://www.butterflynetwork.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/geckoboard-logo-vector-1.svg",
+      "href": "https://www.geckoboard.com/",
+      "Category": "Technology"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/Axios_logo_2020-1.svg",
+      "href": "https://www.axios.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/Hewlett_Packard_Enterprise_logo.svg",
+      "href": "https://www.hpe.com/us/en/home.html",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/shieldpay.svg",
+      "href": "https://www.shieldpay.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/afterpay.svg",
+      "href": "https://www.afterpay.com/en-US",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/Nutrien_Logo.svg",
+      "href": "https://www.nutrien.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/ppg.svg",
+      "href": "https://www.ppg.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/hitachi.svg",
+      "href": "https://www.hitachi.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/07/wework-logo.svg",
+      "href": "https://www.wework.com/",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/NTT-Data-Logo.svg",
+      "href": "https://us.nttdata.com/en",
+      "Category": "Software"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/thiememeulenhoff.svg",
+      "href": "https://www.thiememeulenhoff.nl/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/ring-1.svg",
+      "href": "https://ring.com/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/06/broad.svg",
+      "href": "https://www.broadinstitute.org/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/nyu-logo.png",
+      "href": "https://www.nyu.edu/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/carnegie-mellon-university-logo.png",
+      "href": "https://qcd.phys.cmu.edu/QCDcluster/intel/c++/main_cls/mergedProjects/optaps_cls/common/optaps_pgo_covr.htm",
+      "Category": ""
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/carleton-logo-2.svg",
+      "href": "https://carleton.ca/scs/cu-events/codecov-online-workshop/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/harvard-logo.png",
+      "href": "https://harvard-iacs.github.io/2020-CS107/homework/HW4/notebook/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/plushcare-logo.svg",
+      "href": "https://plushcare.com/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/healthsherpa-logo.png",
+      "href": "https://www.healthsherpa.com/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/oyster-logo.svg",
+      "href": "https://www.oysterhr.com/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2021/02/ujet-logo.svg",
+      "href": "https://ujet.co/",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2020/12/shipt.svg",
+      "href": "",
+      "Category": "Healthcare"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2020/10/cbs-interactive.svg",
+      "href": "https://cbsinteractive.com/",
+      "Category": "Bussiness Service"
+    },
+
+    {
+      "name": "https://about.codecov.io/wp-content/uploads/2020/10/discovery.svg",
+      "href": "https://www.discovery.com/",
+      "Category": "Bussiness Service"
+    }
+   ],
+  "ResourcesData":[
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/07/0622_M38_DependencyCoverage-2.jpg",
+      "title":"What Is Dependency Coverage?",
+      "type":"Blog Post"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/07/0622_M36_TrackingCodeCoverage@3x-100-scaled.jpg",
+      "title":"How to Know If Your Company Should Be Tracking Code Coverage",
+      "type":"Tutorial"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2020/05/soc2-e1621885514940.png",
+      "title":"SOC2 Type II Renewed with No Exceptions and SOC3 Awarded",
+      "type":"Media Coverage"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/06/Screen-Shot-2022-07-20-at-2.22.39-PM.png",
+      "title":"Open Beta: Impact Analysis ",
+      "type":"Artical"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/06/0622_ProjectInsights.jpg",
+      "title":"Announcing Impact Analysis in Open Beta",
+      "type":"Video"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/03/cover-2.png",
+      "title":"An Introduction to Open Telemetry",
+      "type":"JavaScript"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/10/12-software-testing-events-2021.png",
+      "title":"Open Beta: Impact Analysis Webinar",
+      "type":"Java"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/05/0522_MutationTesting@3x-100-scaled.jpg",
+      "title":"Mutation Testing: How to Ensure Code Coverage Isn’t a Vanity Metric",
+      "type":"PHP"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/05/TypeScript-1200x628@2x.png",
+      "title":"Measuring Typescript Code Coverage with Jest and GitHub Actions",
+      "type":"C++"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/06/11.Codecov-with-C-and-GitHub-Actions-4-e1623430205538.png",
+      "title":"How to Set Up Codecov with C and GitHub Actions",
+      "type":"Bash"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/06/14.-The-Different-Types-of-Software-Testing-1.png",
+      "title":"Measuring PHP Code Coverage with PHPUnit and GitHub Actions",
+      "type":"Github Actions"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/05/15.-New-Codecov-uploader-_-No-more-Bash-and-Grabs.svg",
+      "title":"What is Code Coverage?",
+      "type":"Codecov"
+    },
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/01/32_Four-day-work-week-01.png",
+      "title":"What Is Dependency Coverage?",
+      "type":"Blog Post"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/01/2021-state-of-open-source-code-coverage.jpeg",
+      "title":"How to Know If Your Company Should Be Tracking Code Coverage",
+      "type":"Tutorial"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2022/01/The-Top-8-Software-Testing-Blogs.png",
+      "title":"SOC2 Type II Renewed with No Exceptions and SOC3 Awarded",
+      "type":"Media Coverage"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/12/Top-20-Software-Testing-QA-Services-Companies-1.png",
+      "title":"Open Beta: Impact Analysis ",
+      "type":"Artical"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/blog/50-software-testing-terms-defined/",
+      "title":"Announcing Impact Analysis in Open Beta",
+      "type":"Video"
+    },
+
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/12/testdriven.png",
+      "title":"An Introduction to Open Telemetry",
+      "type":"JavaScript"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/blog/an-introduction-to-testops/",
+      "title":"Open Beta: Impact Analysis Webinar",
+      "type":"Java"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/12/log4j2.png",
+      "title":"Mutation Testing: How to Ensure Code Coverage Isn’t a Vanity Metric",
+      "type":"PHP"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/11/30.-Writing-Better-Tests-With-AI-and-GitHub-Copilot-v2-01.png",
+      "title":"Measuring Typescript Code Coverage with Jest and GitHub Actions",
+      "type":"C++"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/11/27.Writing-a-Software-Testing-Plan-That-Scales-v5-01.jpg",
+      "title":"How to Set Up Codecov with C and GitHub Actions",
+      "type":"Bash"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/07/20.-The-Role-of-Code-Coverage-in-Regulations-and-Standards-v2-01.jpg",
+      "title":"Measuring PHP Code Coverage with PHPUnit and GitHub Actions",
+      "type":"Github Actions"
+    },
+    
+    {
+      "imgUrl":"https://about.codecov.io/wp-content/uploads/2021/07/Common-Steps-in-a-Complete-22_-Continuous-Integration-Workflow2-01.png",
+      "title":"What is Code Coverage?",
+      "type":"Codecov"
+    }
+
+    
+  ]
 }
 
 
 
 
 
-        
+
+
+
+
+
+
+

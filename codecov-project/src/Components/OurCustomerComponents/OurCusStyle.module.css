@@ -4,7 +4,6 @@
 
 
 .OurCustomerConatiner{
-    /* border:1px solid red; */
     display: flex;
     justify-content: space-around;
 }
@@ -23,13 +22,16 @@
 }
 .outerframework{
     height: auto;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin:70px 190px;
+    /* background-color: #f6f9fc; */
+    /* background-color: transparent; */
+  
 }
 .OurCustomerBox{
     width: 949.99px;
     height: 520px;
-    /* border:1px solid red; */
+
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -67,3 +69,73 @@
     font-weight: 800;
     /* border:1px solid; */
 }
+
+
+/* Explore Start */
+.ExploreHeading{
+    text-align: center;
+    line-height: 3.6rem;
+    font-size: 25.6px;
+    font-weight: 800;
+    text-align: center;
+    height: 145.6px;
+    padding: 40px 0px;
+}
+.ExploreInputs{
+    height: 66px;
+    /* border:1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    background-color: #f3f5f8;
+}
+.ExploreInputs>div{
+    width: 349.99px;
+    height: 36px;
+    border: 1px solid #f3f5f8;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: auto;
+}
+.ExploreInputs>div>input{
+    height: 100% !important;
+    width: 90%;
+
+}
+
+.ExploreInputs>div:last-child{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: larger;
+   
+}
+.MapContainer{
+    /* border:1px solid blue; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:15px;
+    justify-content: center;
+  
+
+}
+.MapContainer>div{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    background-color: white;
+    margin: 5px 0px 30px;
+    padding: 30px ;
+    height: 205.2px;
+    width: 205.2px;
+    padding-top: 26%;
+    cursor: pointer;
+    border-radius: 8px;
+  
+}
+
+
+/* */
+/* Explore Ends */

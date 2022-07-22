@@ -1,0 +1,131 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.ResourceContainer{
+    height: auto;
+    /* border:1px solid black; */
+    margin:60px 190px;
+    background-color: #f6f9fc;
+    background: rgba(0,0,0,0.5);
+    background-color: transparent;
+    height: auto;
+}
+.ResHeading{
+    text-align: center;
+    line-height: 3.6rem;
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+    height: 145.6px;
+    padding: 40px 0px;
+}
+
+
+/* sticky Start */
+#ResLeftsticky {
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #f6f9fc;
+    width: 305px;
+    height: 234px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+  }
+
+  #ResLeft {
+    width: 285px;
+    height: auto;
+  }
+  .ResRight {
+    height: auto;
+    width: 855px;
+    /* border:1px solid blue; */
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  /* sticky Ends */
+
+
+  /* BottomMain Start */
+  .BottomMain
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+.ResInputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 20px;
+  gap:15px;
+
+}
+.ResInputs>div{
+    border:1px solid  #c2c3c3 ;
+ height: 36px;
+ background-color:white;
+
+}
+.ResInputs>div>input{
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+  
+
+}
+
+
+/* Mappped data start */
+.ResourceChotu{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: auto;
+    gap:25px;
+    padding: auto;
+
+  }
+  .ResourceChotu>div{
+   border-radius: 5px;
+   box-shadow: 0 0 20px 0 rgb(15 27 41 / 15%);
+   height: 410px;
+   width:380px ;
+   /* padding: 0px 15px; */
+  }
+  .Resource1>img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+  }
+  .Resource2{
+    width: 100%;
+    height: 154px;
+    padding: 12px 24px;
+  }
+  .Resource2>h2{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .Resource3{
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 12px 24px;
+    justify-content: right;
+    color: #f07;
+  }
+
+  /* Mappped data Ends */
+  /* BottomMain Ends */

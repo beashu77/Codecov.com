@@ -2,8 +2,9 @@ import React from "react";
 import style from "./style.module.css";
 import { Button } from "@chakra-ui/react";
 import { TbCircleCheck } from "react-icons/tb";
+import CodeCovHomeMid from "./CodeCovHomeMid";
 
-const GetStartBox = () => {
+const Home = () => {
   return (
     <>
       <div>
@@ -107,7 +108,7 @@ const GetStartBox = () => {
         </div>
         <div className={style.CycleBottom}>
           <div className={style.CycleLeft}>
-            <img src="https://about.codecov.io/wp-content/themes/codecov/assets/templates/home/devops.svg" />
+            <img  alt="pic" src="https://about.codecov.io/wp-content/themes/codecov/assets/templates/home/devops.svg" />
           </div>
           <div className={style.CycleRight}>
             <div className={style.CycleOne}>
@@ -171,8 +172,9 @@ const GetStartBox = () => {
         </div>
         
       </div>
+      <CodeCovHomeMid />
     </>
   );
 };
 
-export default GetStartBox;
+export default Home;

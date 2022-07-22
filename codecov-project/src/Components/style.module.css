@@ -12,7 +12,7 @@
   color: #656d76;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 15px;
+  
 }
 .navTopOffer:hover {
   color: #fff;
@@ -21,6 +21,10 @@
   height: 120px;
   /* border:1px solid; */
   padding-top: 20px;
+  /* position: -webkit-sticky; 
+  position: sticky;
+  top: 0; */
+  background-color: transparent;
 }
 .navbarBox {
   /* border:1px solid red; */

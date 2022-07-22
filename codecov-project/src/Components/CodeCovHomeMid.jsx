@@ -3,7 +3,6 @@ import style from "./style.module.css";
 import { Button } from "@chakra-ui/react";
 import { BiRightArrowAlt } from "react-icons/bi";
 
-
 const initLogos = [
   {
     url: "https://about.codecov.io/wp-content/uploads/2021/06/shieldpay.svg",
@@ -158,15 +157,40 @@ const CodeCovHomeMid = () => {
                 Sign up with your code host below.
               </p>
             </div>
-            <div className={style.ReadyBottom }>
-          <div><img src="https://tse4.mm.bing.net/th?id=OIP.NGIDdVP6vw9ue_D-mrEVFQHaHa&pid=Api&P=0"/><h2>GitHub</h2></div>
-            <div><img src="https://tse4.mm.bing.net/th?id=OIP.M33soXqtWpiLgkMWCUmtYQHaHa&pid=Api&P=0"/><h2>GitLab</h2></div>
-            <div><img src="https://tse1.mm.bing.net/th?id=OIP.1r-Ecwo8q9SQ3mpEllcoxQHaHa&pid=Api&P=0"/><h2>Bitbucket</h2></div>
-        </div>
+            <div className={style.ReadyBottom}>
+              <div>
+                <img
+                  alt="pic"
+                  src="https://tse4.mm.bing.net/th?id=OIP.NGIDdVP6vw9ue_D-mrEVFQHaHa&pid=Api&P=0"
+                />
+
+                <a href="https://app.codecov.io/login/gh?utm_department=marketing&utm_medium=referral&utm_source=https%3A%2F%2Fin.search.yahoo.com%2F">
+                  <h2 style={{ fontWeight: "bold" }}>GitHub</h2>
+                </a>
+              </div>
+              <div>
+                <img
+                  alt="pic"
+                  src="https://tse4.mm.bing.net/th?id=OIP.M33soXqtWpiLgkMWCUmtYQHaHa&pid=Api&P=0"
+                />
+
+                <a href="https://app.codecov.io/login/gl?utm_department=marketing&utm_medium=referral&utm_source=https%3A%2F%2Fabout.codecov.io%2F">
+                  <h2 style={{ fontWeight: "bold" }}>GitLab</h2>
+                </a>
+              </div>
+              <div>
+                <img
+                  alt="pic"
+                  src="https://tse1.mm.bing.net/th?id=OIP.1r-Ecwo8q9SQ3mpEllcoxQHaHa&pid=Api&P=0"
+                />
+
+                <a href="https://app.codecov.io/login/bb?utm_department=marketing&utm_medium=referral&utm_source=https%3A%2F%2Fabout.codecov.io%2F">
+                  <h2 style={{ fontWeight: "bold" }}>Bitbucket</h2>
+                </a>
+              </div>
+            </div>
           </div>
-         
         </div>
-        
       </div>
     </>
   );
