@@ -103,7 +103,7 @@ const CodeCovHomeMid = () => {
             {initLogos.map((item) => {
               return (
                 <div>
-                  <img alt="logo" src={item.url} />
+                  <img style={{height:'65px',width:'80px',marginTop:'5px'}} alt="logo" src={item.url} />
                 </div>
               );
             })}

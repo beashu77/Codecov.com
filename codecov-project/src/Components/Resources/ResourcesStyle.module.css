@@ -127,5 +127,22 @@
     color: #f07;
   }
 
+  .BottomBtnBox{
+    border:1px solid;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+    height: auto;
+    gap:25px;
+    width: 855px;
+    /* border:1px solid blue; */
+    margin-left: auto;
+   font-size: 16px;
+  }
+  .BottomBtnBox>button{
+    color: #f07;
+  }
+
   /* Mappped data Ends */
   /* BottomMain Ends */

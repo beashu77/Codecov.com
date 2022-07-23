@@ -2,7 +2,7 @@
   "OurCustomerData": [
     {
       "name": "https://about.codecov.io/wp-content/uploads/2022/07/2560px-Slack_Technologies_Logo.svg.png",
-      "href": "",
+      "href": "https://slack.com/intl/en-in/",
       "Category": "Finance"
     },
 
@@ -153,7 +153,7 @@
     {
       "name": "https://about.codecov.io/wp-content/uploads/2021/02/carnegie-mellon-university-logo.png",
       "href": "https://qcd.phys.cmu.edu/QCDcluster/intel/c++/main_cls/mergedProjects/optaps_cls/common/optaps_pgo_covr.htm",
-      "Category": ""
+      "Category": "Healthcare"
     },
 
     {

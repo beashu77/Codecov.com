@@ -20,13 +20,42 @@ const OurCustomer = () => {
   const options = ["one", "two", "three"];
   const defaultOption = options[0];
    const [jsonData,setJsonData] = useState([]); 
+   const [query,setQuery] = useState(null);
+   const [loading, setLoding] = useState(false);
+   const [error, setError] = useState(false);
   useEffect(() => {
+    setLoding(true);
+    setError(false);
     axios("http://localhost:8080/OurCustomerData")
-    .then((res)=>setJsonData(res.data))
+    .then((res)=>{
+      setJsonData(res.data)
+      setLoding(false);
+    })
+    .catch((err)=>{
+      setLoding(false)
+      setError(true)
+    })
 
   }, [])
 
-  console.log(jsonData)
+  console.log(jsonData);
+
+
+  const handleCustomer=(e)=>{
+      console.log(e.target.value);
+      setQuery(e.target.value);
+      setLoding(true);
+      setError(false);
+      axios(`http://localhost:8080/OurCustomerData/?Category=${query}`)
+      .then((res)=>{
+        setJsonData(res.data)
+        setLoding(false);
+      })
+      .catch((err)=>{
+        setLoding(false)
+        setError(true)
+      })
+  }
 
   return (
     <>
@@ -39,9 +68,6 @@ const OurCustomer = () => {
           return item.id === 2 ? two(item) : one(item);
         })}
         </>
-
-
-
 
 {/* ExploreContainer div */}
 <div className={style.ExploreContainer}>
@@ -64,31 +90,31 @@ const OurCustomer = () => {
               >
                 More {isOpen ? <ChevronUpIcon /> : <ChevronDownIcon />}
               </MenuButton>
-              <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
-              <MenuItem>
+              <MenuList onMouseEnter={onOpen} onMouseLeave={onClose} onClick={handleCustomer}>
+              <MenuItem value="Technology">
                   {" "}
                  
                   Technology
                 </MenuItem>
-                <MenuItem>
+                <MenuItem value="Finance">
                   {" "}
                   Finance
                 </MenuItem>
 
             
-                <MenuItem>
+                <MenuItem value="Software">
                   {" "}
                  
                   Software
                 </MenuItem>
                 
                
-                <MenuItem>
+                <MenuItem value="Healthcare">
                   {" "}
                  
                   Healthcare
                 </MenuItem>
-                <MenuItem>
+                <MenuItem value="Bussiness Service">
                 Bussiness Service
                 </MenuItem>
               </MenuList>
@@ -104,6 +130,8 @@ const OurCustomer = () => {
 
          {/* Mapping div */}
         <div className={style.MapContainer}>
+          {loading && <h2 style={{textAlign:"center"}}>Loading...</h2>}
+          {error && <h2 style={{textAlign:"center"}}>Something is Wrong...</h2>}
           {jsonData?.map((elem)=>{
             return <div>
                <a href={elem.href}><img alt="logo" src={elem.name}/></a>

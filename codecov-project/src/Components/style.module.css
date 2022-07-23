@@ -74,6 +74,25 @@
 
 /* Navbar ends */
 
+/* Dropdown Start */
+.DropResBox{
+  margin-top: 15px;
+  padding: 15px;
+}
+.DropResBox>li{
+display: flex;
+flex-direction: row;
+gap: 10px;
+margin-bottom: 10px;
+font-size: small;
+}
+.DropResBox>li:hover{
+  color: #f07;
+  cursor: pointer;
+
+}
+/* Dropdown Ends */
+
 /* Footer Starts */
 .FooterContainer {
   display: flex;
