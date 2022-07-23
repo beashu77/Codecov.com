@@ -1,7 +1,9 @@
 import React, { useState,useEffect} from "react";
 import style from "./ResourcesStyle.module.css";
-
+import { MdOutlineDoubleArrow } from "react-icons/md";
 import { BiRightArrowAlt } from "react-icons/bi";
+import { HiArrowNarrowRight,HiArrowNarrowLeft } from "react-icons/hi";
+
 import axios from "axios";
 
 //Menu input
@@ -11,6 +13,7 @@ import {
   MenuButton,
   MenuList,
   useDisclosure,
+  Button,
 } from "@chakra-ui/react";
 
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
@@ -25,7 +28,10 @@ const Resources = () => {
 
   const [data,setData] = useState([]);
   const [query,setQuery] = useState(null);
-  const [text,setText] = useState()
+  const [text,setText] = useState();
+  const [page,setPage] =useState(1);
+  const [loading, setLoding] = useState(false);
+  const [error, setError] = useState(false);
 
 
   const handleInput=()=>{
@@ -36,14 +42,33 @@ const Resources = () => {
  const handleChange=(e)=>{
     setQuery(e.target.value);
     console.log(query);
+    setLoding(true);
+    setError(false);
     axios(`http://localhost:8080/ResourcesData/?type=${query}`)
-    .then((res)=>setData(res.data))
+    .then((res)=>{
+      setData(res.data)
+      setLoding(false);
+    })
+    .catch((err)=>{
+      setLoding(false)
+      setError(true)
+    })
  }
 
  useEffect(() => { 
-    axios(`http://localhost:8080/ResourcesData?_page=1&_limit=12`)
-     .then((res)=>setData(res.data))
-}, []);
+  console.log(page)
+  setLoding(true);
+  setError(false);
+    axios(`http://localhost:8080/ResourcesData?_page=${page}&_limit=6`)
+    .then((res)=>{
+      setData(res.data)
+      setLoding(false);
+    })
+    .catch((err)=>{
+      setLoding(false)
+      setError(true)
+    })
+}, [page]);
  
   return (
     <div className={style.ResourceContainer}>
@@ -55,9 +80,9 @@ const Resources = () => {
         <div id={style.ResLeft}>
           <div id={style.ResLeftsticky}>
             <div className={style.ResInputs}>
-            <div >
+            {/* <div >
                 <input type="text"  onChange={handleInput} value={text}/>
-              </div>
+              </div> */}
 
               {/* Meanu 1******************************** */}
               <div>
@@ -151,6 +176,8 @@ const Resources = () => {
         <div className={style.ResRight}>
 
         <div className={style.ResourceChotu}>
+        {loading && <p>Loading...</p>}
+          {error && <p>Something is Wrong...</p>}
           {data?.map((item) => {
             return (
               <div>
@@ -175,6 +202,17 @@ const Resources = () => {
 
 
         </div>
+        <div>
+         
+        </div>
+      
+      </div>
+      
+
+      <div className={style.BottomBtnBox}>
+      <button disabled={page===0} onClick={()=>{setPage(page-1)}}><HiArrowNarrowLeft/></button>
+        <p>{page}</p>
+      <button disabled={page===4} onClick={()=>{setPage(page+1)}}><HiArrowNarrowRight/></button>
       </div>
     </div>
   );
