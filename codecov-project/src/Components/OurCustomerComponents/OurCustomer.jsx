@@ -130,8 +130,10 @@ const OurCustomer = () => {
 
          {/* Mapping div */}
         <div className={style.MapContainer}>
-          {loading && <h2 style={{textAlign:"center"}}>Loading...</h2>}
-          {error && <h2 style={{textAlign:"center"}}>Something is Wrong...</h2>}
+        {loading && <img style={{height:"400px",marginLeft:'40%', width:"1540px",marginLeft:'400px' ,padding:'-15px',marginTop:'20%'}}
+          alt="pic" src="https://c.tenor.com/NcJk17_d4R0AAAAC/tenor.gif"/>}
+          {error && <img style={{height:"400px",marginLeft:'40%', width:"1540px",marginLeft:'400px' ,padding:'-15px',marginTop:'20%'}}
+          alt="pic" src="https://gifimage.net/wp-content/uploads/2018/11/something-went-wrong-gif-7.gif"/>}
           {jsonData?.map((elem)=>{
             return <div>
                <a href={elem.href}><img alt="logo" src={elem.name}/></a>

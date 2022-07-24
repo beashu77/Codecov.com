@@ -176,8 +176,10 @@ const Resources = () => {
         <div className={style.ResRight}>
 
         <div className={style.ResourceChotu}>
-        {loading && <p>Loading...</p>}
-          {error && <p>Something is Wrong...</p>}
+        {loading && <img style={{height:"400px",marginLeft:'40%', width:"1540px" ,padding:'-15px',marginTop:'20%'}}
+          alt="pic" src="https://c.tenor.com/NcJk17_d4R0AAAAC/tenor.gif"/>}
+          {error && <img style={{height:"400px",marginLeft:'40%', width:"1540px" ,padding:'-15px',marginTop:'20%'}}
+          alt="pic" src="https://gifimage.net/wp-content/uploads/2018/11/something-went-wrong-gif-7.gif"/>}
           {data?.map((item) => {
             return (
               <div>

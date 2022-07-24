@@ -97,7 +97,7 @@ const SignUp = () => {
                   src="https://tse4.mm.bing.net/th?id=OIP.NGIDdVP6vw9ue_D-mrEVFQHaHa&pid=Api&P=0"
                 />
 
-                <a href="https://about.codecov.io/sign-up/#github-login-interstitial">
+                <a href="https://app.codecov.io/login/gh?utm_department=marketing&utm_medium=referral&utm_source=https%3A%2F%2Fabout.codecov.io%2Fschedule-demo%2F">
                   <h2 style={{ fontWeight: "bold" }}>GitHub</h2>
                 </a>
               </div>

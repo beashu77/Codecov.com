@@ -64,6 +64,92 @@ const Navbar = () => {
           </Box>
           <Box className={style.navbar2}>
           
+             {/* ***********************Product Box */}
+             <Box marginTop={"-10px"}>
+              <Menu isOpen={isProductOpen}>
+                <MenuButton
+                  variant="ghost"
+                  py={[1, 2, 2]}
+                  marginTop={"0.5"}
+                  borderRadius={5}
+                  aria-label="Courses"
+                  fontWeight="700"
+                  onMouseEnter={onProductOpen}
+                  onMouseLeave={onProductClose}
+                >
+                  <Link to="/">
+                  <Text fontWeight={"bold"} fontSize={"15px"}>
+                    {" "}
+                    Product
+                  </Text>
+                  </Link>
+                </MenuButton>
+                <MenuList
+                  onClick={handleResource}
+                  padding={"10px"}
+                  onMouseEnter={onProductOpen}
+                  onMouseLeave={onProductClose}
+                >
+                  Product
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      gap: "25px",
+                    }}
+                  >
+                    <div
+                      style={{ listStyleType: "none", marginTop: "30px" }}
+                      className={style.DropResBox}
+                    >
+                      <li>
+                        <GrDocumentText />
+                        Features
+                      </li>
+                      <li>
+                        <FcSettings />
+                        Integration
+                      </li>
+                      <li>
+                        <FaPencilAlt />
+                        Documentation
+                      </li>
+                      <li>
+                        <FaBoxes />
+                        API
+                      </li>
+                      <li>
+                        <BsFillPersonBadgeFill />
+                        Status
+                      </li>
+                    </div>
+
+                    <div
+                      style={{ listStyleType: "none", marginTop: "30px" }}
+                      className={style.DropResBox}
+                    >
+                      <li>
+                        <MdSource />
+                        Open Source
+                      </li>
+                      <li>
+                        <BsBuilding />
+                        Enterprise
+                      </li>
+                      <li>
+                        <ImRocket />
+                        Startups
+                      </li>
+                      <li>
+                        <BsUmbrellaFill />
+                        Education
+                      </li>
+                    </div>
+                  </div>
+                </MenuList>
+              </Menu>
+            </Box>
+
             {/* ***********************Documentation Box */}
             <Box>
               <a href="https://docs.codecov.com/docs">
@@ -221,95 +307,14 @@ const Navbar = () => {
               </Menu>
             </Box>
 
-              {/* ***********************Product Box */}
-              <Box marginTop={"-10px"}>
-              <Menu isOpen={isProductOpen}>
-                <MenuButton
-                  variant="ghost"
-                  py={[1, 2, 2]}
-                  marginTop={"0.5"}
-                  borderRadius={5}
-                  aria-label="Courses"
-                  fontWeight="700"
-                  onMouseEnter={onProductOpen}
-                  onMouseLeave={onProductClose}
-                >
-                  <Text fontWeight={"bold"} fontSize={"15px"}>
-                    {" "}
-                    Product
-                  </Text>
-                </MenuButton>
-                <MenuList
-                  onClick={handleResource}
-                  padding={"10px"}
-                  onMouseEnter={onProductOpen}
-                  onMouseLeave={onProductClose}
-                >
-                  Product
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      gap: "25px",
-                    }}
-                  >
-                    <div
-                      style={{ listStyleType: "none", marginTop: "30px" }}
-                      className={style.DropResBox}
-                    >
-                      <li>
-                        <GrDocumentText />
-                        Features
-                      </li>
-                      <li>
-                        <FcSettings />
-                        Integration
-                      </li>
-                      <li>
-                        <FaPencilAlt />
-                        Documentation
-                      </li>
-                      <li>
-                        <FaBoxes />
-                        API
-                      </li>
-                      <li>
-                        <BsFillPersonBadgeFill />
-                        Status
-                      </li>
-                    </div>
-
-                    <div
-                      style={{ listStyleType: "none", marginTop: "30px" }}
-                      className={style.DropResBox}
-                    >
-                      <li>
-                        <MdSource />
-                        Open Source
-                      </li>
-                      <li>
-                        <BsBuilding />
-                        Enterprise
-                      </li>
-                      <li>
-                        <ImRocket />
-                        Startups
-                      </li>
-                      <li>
-                        <BsUmbrellaFill />
-                        Education
-                      </li>
-                    </div>
-                  </div>
-                </MenuList>
-              </Menu>
-            </Box>
-
+           
             {/* ****************************************** Pricing Box */}
             <Box>
+              <Link to="/pricing">
               <Text fontWeight={"bold"} fontSize={"15px"}>
                 Pricing
               </Text>
+              </Link>
             </Box>
             {/* ****************************************** Contact Box */}
             <Box>
