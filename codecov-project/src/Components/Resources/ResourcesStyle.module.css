@@ -93,7 +93,7 @@
    grid-template-rows: auto;
     gap:25px;
     padding: auto;
-
+  /* border: 1px solid red; */
   }
   .ResourceChotu>div{
    border-radius: 5px;
@@ -128,7 +128,7 @@
   }
 
   .BottomBtnBox{
-    border:1px solid;
+    /* border:1px solid; */
     display: flex;
     flex-direction: row;
     margin-top: 15px;
