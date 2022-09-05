@@ -19,15 +19,27 @@ Do check our website : https://codecov-project.vercel.app/
 
 ## some snippets from our work
 
-![Screenshot (1438)](https://user-images.githubusercontent.com/101566272/187064927-a4e19675-51c3-4e5b-a57a-dcce2351d290.png)
+<!-- ![Codecov Homepage2](https://user-images.githubusercontent.com/101581634/188459015-fd59230b-438e-4311-8d73-377fbd2a2475.PNG) -->
 
-![Screenshot (1442)](https://user-images.githubusercontent.com/101566272/187065004-9bf6c241-b82f-4eba-953a-8810320b1c4d.png)
+![Codecov Homepage3](https://user-images.githubusercontent.com/101581634/188459021-bbe6df21-0941-4100-a8e7-b4eb60431ee1.PNG)
+
+## Footer
+![Codecov Footer](https://user-images.githubusercontent.com/101581634/188459043-73ad9b8f-2e55-436d-887c-7abc8c07d788.PNG)
+
+## Plan Available
+![Codecov Plan](https://user-images.githubusercontent.com/101581634/188459029-647b9f48-2d25-40db-8fdd-6640f28c4bbd.PNG)
+
+## Resources and Different Blogs
+![Codecov Resources](https://user-images.githubusercontent.com/101581634/188459032-938a0ddc-0836-4c54-acec-f0daddf7fe6f.PNG)
 
 
-![Screenshot (1439)](https://user-images.githubusercontent.com/101566272/187064948-88b32648-589a-4971-9aa0-4a40db238ca8.png)
+## Customer Page
+![Codecov CustomerPage](https://user-images.githubusercontent.com/101581634/188459037-e7fb6b5e-0533-45a1-900c-9d8afade1d54.PNG)
+![Codecov CutomerPage2](https://user-images.githubusercontent.com/101581634/188459042-703a25b5-ded8-49f1-8ab4-4e7917a31680.PNG)
 
-![Screenshot (1441)](https://user-images.githubusercontent.com/101566272/187064957-6ee039e7-706d-4b0c-9006-10e0745d5b37.png)
-
+## Contact Page
+![Codecov ContactUS](https://user-images.githubusercontent.com/101581634/188459035-04d905cb-6ced-418f-b789-52d3d2d48ff7.PNG)
+<Contact Page>
 
 ## 🛠 Skills
 HTML ,Css,JavaScript, ReactJs, GitHub,Chakra-UI
@@ -36,7 +48,7 @@ HTML ,Css,JavaScript, ReactJs, GitHub,Chakra-UI
 ## Features
 
 - Easy to Use
-- Fresh, Quality Products
+- Testing code easily
 - Well Designed and Functional
 - Optimized for Search and the Social Web
 - Functional
