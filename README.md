@@ -1,15 +1,16 @@
 # Codecov.com
 Codecov provides highly integrated tools for developers and engineering leaders to gain actionable visibility into their code coverage.Code coverage is one of the most important metrics companies rely on to ship healthier code, faster, and with less risk.
 
-![Screenshot (1433)](https://user-images.githubusercontent.com/101566272/187063976-df4a5fae-1560-4830-a4f2-4250e3acf6d8.png)
+
+![Codecov Homepage1](https://user-images.githubusercontent.com/101581634/188457106-16d149aa-f213-4013-b758-0926393122a4.PNG)
 
 
 
-# Clone of himalaya.com
+# Clone of Codecov.com
 Since our founding in 2015, Codecov has evolved from a one person team to a distributed remote family. They have team members all across the world, and they’re committed to building disruptive testing tools and code coverage reports that will allow developers to ship healthier code.
 ## Demo
 
-Here you can have a Look on our source Code himalyausa.com :
+Here you can have a Look on our source Code Codecov.com :
 https://github.com/beashu77/Codecov.com
 
 ## Deployment
