@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Codecov.com
+Codecov provides highly integrated tools for developers and engineering leaders to gain actionable visibility into their code coverage.Code coverage is one of the most important metrics companies rely on to ship healthier code, faster, and with less risk.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Codecov Homepage1](https://user-images.githubusercontent.com/101581634/188457106-16d149aa-f213-4013-b758-0926393122a4.PNG)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Clone of Codecov.com
+Since our founding in 2015, Codecov has evolved from a one person team to a distributed remote family. They have team members all across the world, and they’re committed to building disruptive testing tools and code coverage reports that will allow developers to ship healthier code.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here you can have a Look on our source Code Codecov.com :
+https://github.com/beashu77/Codecov.com
 
-### `npm test`
+## Deployment
+Do check our website : https://codecov-project.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## some snippets from our work
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ![Codecov Homepage2](https://user-images.githubusercontent.com/101581634/188459015-fd59230b-438e-4311-8d73-377fbd2a2475.PNG) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Codecov Homepage3](https://user-images.githubusercontent.com/101581634/188459021-bbe6df21-0941-4100-a8e7-b4eb60431ee1.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Footer
+![Codecov Footer](https://user-images.githubusercontent.com/101581634/188459043-73ad9b8f-2e55-436d-887c-7abc8c07d788.PNG)
 
-### `npm run eject`
+## Plan Available
+![Codecov Plan](https://user-images.githubusercontent.com/101581634/188459029-647b9f48-2d25-40db-8fdd-6640f28c4bbd.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Resources and Different Blogs
+![Codecov Resources](https://user-images.githubusercontent.com/101581634/188459032-938a0ddc-0836-4c54-acec-f0daddf7fe6f.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customer Page
+![Codecov CustomerPage](https://user-images.githubusercontent.com/101581634/188459037-e7fb6b5e-0533-45a1-900c-9d8afade1d54.PNG)
+![Codecov CutomerPage2](https://user-images.githubusercontent.com/101581634/188459042-703a25b5-ded8-49f1-8ab4-4e7917a31680.PNG)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact Page
+![Codecov ContactUS](https://user-images.githubusercontent.com/101581634/188459035-04d905cb-6ced-418f-b789-52d3d2d48ff7.PNG)
+<Contact Page>
 
-## Learn More
+## 🛠 Skills
+HTML ,Css,JavaScript, ReactJs, GitHub,Chakra-UI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+- Easy to Use
+- Testing code easily
+- Well Designed and Functional
+- Optimized for Search and the Social Web
+- Functional
+- Performance and Speed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
+- [Ashwini Bhoskar](https://github.com/beashu77)
 
-### Making a Progressive Web App
+# For Developers
+ - clone the repository 
+ - install node modules
+ - Install the dependencies 
+ - npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 About us 
+We are students at masai school (https://www.masaischool.com/) full stack web developer. We are team of 5 people. This was the project given to us on completion of unit 5. till unit 5 we have learned HTML, CSS,JavaScript,ReactJs,Redux and chakraUI. So we tried to apply our learning to make this project in 6 days.  
